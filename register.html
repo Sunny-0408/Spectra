@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Event List</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: #ffffffcc;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #5a2a8f;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      font-size: 1.3rem;
+      margin: 15px 0;
+      padding: 15px 25px;
+      background: linear-gradient(135deg, #f9f9f9, #d4e9ff);
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    li:hover {
+      transform: scale(1.08);
+      background: linear-gradient(135deg, #c2f0fc, #e5d0fa);
+      color: #2d006e;
+      font-weight: bold;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    li::before {
+      content: "⭐ ";
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    li:hover::before {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Event Line-Up</h1>
+    <ul>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header">Code Wars (Coding)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header">Webtastic (Web Designing)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header">Tech Trivia (IT Quiz)</a></li>
+      <li></a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header"> (Photography and Videography)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD4mKaRUBABp00UdBKwl-b8_6Bt7g9PhDGD8DDXffd4POF0Q/viewform?usp=header">Tech Tactics (IT Manager)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header">Road to Dinner (BGMI Game Play)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeDaJGrzIwsp0BneZTL-OL7VtvFaZ49IEly58vjifBLfwMXyA/viewform?usp=header">The Hunt for X (Treasure Hunt)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD4mKaRUBABp00UdBKwl-b8_6Bt7g9PhDGD8DDXffd4POF0Q/viewform?usp=header">Insight Out (Paper Presentation)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD4mKaRUBABp00UdBKwl-b8_6Bt7g9PhDGD8DDXffd4POF0Q/viewform?usp=header">Melodia (Singing)</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD4mKaRUBABp00UdBKwl-b8_6Bt7g9PhDGD8DDXffd4POF0Q/viewform?usp=header">Step into the Spotlight (Dancing)</a></li>
+    </ul>
+  </div>
+</body>
+</html>
